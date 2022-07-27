@@ -63,6 +63,10 @@ app.get('/category/electronics/deals/:id',(req,res)=>{
 
 // sort wrt to Price
 
+
+
+
+
 app.get('/category/mobiles',(req,res)=>{
     db.collection('mobiles').find().toArray((err,result)=>{
         if(err) throw err
